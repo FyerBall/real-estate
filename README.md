@@ -13,7 +13,7 @@ Reusable and responsive sliders
 
 ### Images
 
-![items and categories](https://dl.airtable.com/.attachmentThumbnails/971b0db210dd0dab18f3747edefd9a06/e6683b60)
+![items and categories](https://airtable.com/tblP1cQOG4aKKwku3/viwnzDj0WJ8qtLCI1/recvP8LIpBsnxXJ4G/fld1JdaAXfbn8VOi8/attA5Bb5Qz2RnUulT?blocks=hide)
 
 ### Todo
 

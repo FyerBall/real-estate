@@ -5,8 +5,6 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 function Hero() {
   const [index, setIndex] = useState(0)
 
-  const imagesLength = homes.length
-
   const next = () => {
     setIndex(index === homes.length - 1 ? 0 : index + 1)
     console.log(index)
@@ -21,6 +19,7 @@ function Hero() {
       next()
     }, 3000)
     return () => clearTimeout(timeout)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index])
 
   return (
