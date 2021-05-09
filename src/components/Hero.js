@@ -17,7 +17,7 @@ function Hero() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       next()
-    }, 3000)
+    }, 7000)
     return () => clearTimeout(timeout)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index])
