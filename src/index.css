@@ -1,13 +1,84 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --nav-height: 55px;
 }
+/* NAV */
+
+nav {
+  background: black;
+  color: white;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding: 0 0 0 4rem;
+}
+
+/* NAV ENDS*/
+
+/* HERO */
+main {
+  height: calc(100vh - var(--nav-height));
+  display: flex;
+  overflow: hidden;
+}
+img {
+  width: 100vw;
+  height: calc(100vh - var(--nav-height));
+  object-fit: cover;
+  overflow: hidden;
+}
+.hero__container {
+  position: relative;
+}
+
+.hero__image {
+  transition: all 0.3s linear;
+}
+.hero__content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: white;
+  line-height: 1.65;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.hero__title {
+  margin-bottom: 0.5rem;
+}
+.hero__description {
+}
+.hero__sliderButtons {
+  position: absolute;
+  bottom: 150px;
+  right: 50px;
+  background: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.hero__rightButton,
+.hero__leftButton {
+  color: white;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.hero__leftButton {
+  margin-right: 2rem;
+}
+.hero__rightButton {
+  margin-left: 2rem;
+}
+/* HERO ENDS*/
