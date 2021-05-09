@@ -13,7 +13,7 @@ Reusable and responsive sliders
 
 ### Images
 
-![items and categories](https://airtable.com/tblP1cQOG4aKKwku3/viwnzDj0WJ8qtLCI1/recvP8LIpBsnxXJ4G/fld1JdaAXfbn8VOi8/attA5Bb5Qz2RnUulT?blocks=hide)
+![items and categories](https://dl.airtable.com/.attachmentThumbnails/9ebc565f4db6bae3377fad1a3c200d28/622f84b4)
 
 ### Todo
 
@@ -25,5 +25,5 @@ Reusable and responsive sliders
 
 ### Links
 
-[Live](https://meshariabid.com/) \
+[Live](https://sad-torvalds-4c0900.netlify.app/) \
 [Source Code](https://github.com/FyerBall/real-estate)
